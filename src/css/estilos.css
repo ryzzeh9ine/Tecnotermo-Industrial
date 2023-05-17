@@ -1,0 +1,169 @@
+
+header{
+	width: 1320px;
+margin-left: none;
+}
+
+header .cabecalho{
+	background: none;
+	font-size: 3px;
+
+}
+
+header .titulo{
+	font-size: 32px;
+	padding-left: 200px;
+	
+	
+		
+}
+header .sub-titulo{
+	font-size: 20px;
+	padding-left: 170px;
+	text-transform: uppercase;
+}
+header .contatos{
+	font-size: 20px;
+	padding-top: 50px;
+	margin: 0 auto;
+	padding-right: 500px;
+}
+
+header .email{
+	padding-right: 200px;
+}
+
+
+
+	
+body {
+	font-family: 'Poppins', sans-serif;
+	
+	margin: 0 auto;
+	background-color: #aebecc;
+	color: #000000;
+}
+
+body.modo-escuro {
+	background-color: #15223a;
+	color: #ffffff;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: -1px;
+	padding-top: 1px;
+	
+}
+header .logo{
+	width: 300px;
+	height: 260px;
+	margin: 0 auto;
+	transition: 0.3s ease-in-out;
+	
+
+}
+
+
+
+header .imagem-botao {
+	width: 60px;
+	transition: 0.3s ease-in-out;
+}
+
+header #botao-alterar-tema {
+	background: none;
+	border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-produtos:hover {
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+main {
+	padding: 1px;
+}
+
+main .listagem-manutencoes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+
+main .cartao-produtos {
+	background-color: #e2e2e2;
+	width: 300px;
+	height: 400px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	border-radius: 15px;
+	transition: 0.2s ease-in-out;
+	
+}
+
+main .cartao-produtos:hover {
+	background-color: #7491ad;
+}
+
+.modo-escuro .cartao-produtos {
+	background-color: #5f5d5d;
+}
+
+main .cartao-produtos .informacoes {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid #000000;
+	border-radius: 25px;
+}
+
+main .cartao-produtos .informacoes span {
+	padding: 5px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+main .cartao-produtos .gif {
+	width: 60px;
+	height: 60px;
+}
+
+main .cartao-produtos .fazeres {
+	display: flex;
+	gap: 15px;
+}
+
+main .cartao-produtos .fazeres {
+	
+	padding: 30px;
+	border-radius: 100px;
+}
+
+
+.instalacao {
+	background-color: #4d6b59;
+	border: 5px solid #4d6b59;
+	
+	
+}
+
+.manutencao {
+	background-color: #9e3b3bfb;
+	border: 5px solid #9e3b3bfb;
+	
+}
+
+
+main .descricao {
+	max-height: 100px;
+	overflow-y: scroll;
+	font-size: 17px;
+	padding-right: 0px;
+}
